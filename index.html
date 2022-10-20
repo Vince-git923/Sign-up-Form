@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-cont">
+         <div class="logo-cont">
+            <h1>NotACat</h1>
+            <p>Sign-up Form</p>
+        </div>
+        
+        </div>
+       
+        <div class="form-cont">
+            <div class="text">
+                <p>This is not a real online service! Sign up <em>now</em></p>
+            <p>You know you want to.</p>
+            
+            </div>
+            
+            <form action="#">
+                <div class="input-fields">
+                   
+                    <p>LET'S DO THIS!</p>
+                    <label for="fname" class="label" >FIRST NAME:</label>
+                <input type="text" name="fname" required maxlength="20" >
+                
+                <label for="lname" class="label" >LAST NAME:</label>
+                    <input type="text" name="lname" maxlength="20" required>
+                
+                <label for="email" class="label"  >EMAIL:</label>
+                    <input type="email" name="email" maxlength="40" required>
+                
+                    <label for="phone"  class="label">PHONE NUMBER:</label>
+                    <input type="text" name="phone"  maxlength="20" required>
+                
+                <label for="password" class="label">PASSWORD:</label>
+                    <input type="password" id="curr-pass" name="password"  maxlength="20" minlength="7" placeholder="*Minimum of 7 characters " required>
+            
+                <label for="confirm-pass" class="label">CONFIRM PASSWORD:</label>
+                    <input type="password" name="confirm-pass"  id="check-pass" maxlength="140" required>
+                    
+                   
+                    <p class="error-message">*Password do not match!</p>
+                    
+                  
+            </div>
+            <button type="submit" id="sub-btn">Create Account</button>
+                
+                
+            <p>Already have an account? <a href="#">Log-in</a></p>
+           
+            </form>
+
+            
+           
+            
+        </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
